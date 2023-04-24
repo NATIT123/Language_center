@@ -68,6 +68,7 @@ namespace English_center
             if(username=="admin123"&& pass=="123@Asd"){
                     MessageBox.Show("Successfully");
                     Main main = new Main();
+                    main.show();
                     this.Hide();
                     return;
                 }
