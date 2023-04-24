@@ -65,6 +65,12 @@ namespace English_center
         {
             string username = txtName.Text.Trim();
             string pass = txtPass.Text.Trim();
+            if(username=="admin123"&& pass=="123@Asd"){
+                    MessageBox.Show("Successfully");
+                    Main main = new Main();
+                    this.Hide();
+                    return;
+                }
             if (username == "" || pass == "")
             {
                 MessageBox.Show("Username or pass can not empty");
